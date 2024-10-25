@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: "Staatliches", sans-serif;
+    font-weight:  normal;
+}
+
+body, input, textarea {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #2F2C40;
+    color: #ecf0f1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    color:#454259;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+#home .container img {
+    max-width: 640px;
+    max-height: 480px;
+    width: auto;
+    height: auto;
+}
+
+section {
+    padding: 24px 0;
+    color: #2F2C40;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.machines {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #2F2C40;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #454259;
+}
+
+input:focus, textarea:focus {
+    outline-color: #2F2C40;
+}
+
+footer {
+    background-color: #2F2C40;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ecf0f1;
+    background-image: linear-gradient(#ecf0f1,#2F2C40,#ecf0f1);
+}
+
+.saiba-mais a {
+    text-decoration: none;
+}
+
+.saiba-mais a:hover {
+    color: #454259;
+}
